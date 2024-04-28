@@ -1,0 +1,22 @@
+/* div.back{
+    background-image: url(./img/background.jpg);
+} */
+button.frmbtn{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 65px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+button.frmbtn:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+div.form{
+    margin-left: 25%;
+    margin-top: 10%;
+}
